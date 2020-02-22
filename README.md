@@ -1,2 +1,6 @@
 # Augmented-Reality
-The goal of this project to crete ASCII art(to use characters to represent images) using convolutions and basic computer vission algorithmns from scratch. This project aims to show how was Augmented Reality (AR) developed. It presents a simple application developed from scratch.
+This project was part of the course MO446 Computer Vision at University of Campinas.
+Detailed information(related state of the art, algorithms explanation, experiments, results and discussion) about this project can be found at [report](report_AR.pdf).
+
+### Abstract from report
+Augmented Reality (AR) applications are gradually becoming part of our lives allowing us to interact with virtual computer-generated information on a real world environment. Some applications in our smartphones as Pokemon Go are having a great success due to the incorporation of this novel technology. In the present work, we use augmented reality to project an image over a rectangular surface following the same transformation as it moves throughout the frames of a video. In order to accomplish this task, we use ORB (Oriented FAST and rotated BRIEF) as a feature detector. Next, we determine the matches between the feature descriptors of the  target frame and each frame in the video. Subsequently, we determine an affine transformation among the object points in both images using RANSAC. Afterward, we transform our  overlying image using the aforementioned affine transformation and paste it over each frame in the video. At last, a video comprised of all the processed frames is created.
